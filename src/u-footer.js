@@ -100,6 +100,7 @@ class UFooter extends LitElement {
     return html`
       <!-- TODO: SLIDE 111 -->
       <ul>
+        <!-- TODO: SLIDE 51 -->
         <li>
           <a href="#privacy-statement">Privacy</a>
         </li>
