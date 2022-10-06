@@ -223,10 +223,14 @@
       `]}static get properties(){return{imagePosition:{type:String,attribute:"image-position",reflect:!0},clickable:{type:Boolean,attribute:"clickable",reflect:!0}}}render(){return N`
         <div part="image">
           <!-- TODO: SLIDE 63.1 -->
+          <slot name="image"></slot>
         </div>
         <div part="body">
           <!-- TODO: SLIDES 61 & 63.2 -->
-          <slot></slot>
+          <slot name="heading"></slot>
+          <slot name="subheading"></slot>
+          <slot name="content"></slot>
+          <slot name="link"></slot>
         </div>
     `}constructor(){super(),this.clickable=!1}}window.customElements.define(ut.tag,ut);class dt extends st{static get tag(){return"u-mark"}static get styles(){return[a`
         :host {

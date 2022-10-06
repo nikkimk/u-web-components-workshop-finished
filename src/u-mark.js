@@ -45,6 +45,13 @@ class UMark extends LitElement {
   static get properties() {
     return {
       /* TODO: SLIDE 71 */
+      /**
+       * is mark grayscale (default is color)
+       */
+      grayscale: {
+        type: Boolean,
+        attribute: 'grayscale',
+      },
       /* TODO: SLIDE 72 */
     };
   }
