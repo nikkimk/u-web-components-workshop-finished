@@ -16,9 +16,6 @@ body {
   font-size: 12px;
 }
 /* TODO: SLIDES 87 & 93 */
-body, a {
-  color: red!important;
-}
 
 .visually-hidden {
   position: absolute;
