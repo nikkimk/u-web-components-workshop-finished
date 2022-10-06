@@ -4,6 +4,12 @@ window.onload = () => {
     search = document.body.querySelector('u-search');
 
   /* TODO: SLIDE 82 */
+  //set listener for toast
+  if (!!search && !!toast)
+  search.addEventListener('search', (e) => {
+    toast.show('Searching for', e?.detail || '');
+  });
+
 
   //set listeners for page clicks and navbar menu button
   if (!!navbar || !!toast)
