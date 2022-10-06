@@ -132,6 +132,17 @@ class UMark extends LitElement {
               fill:#96bee6;
             }
             /* TODO: SLIDE 74 */
+            .grayscale.text, 
+            .grayscale.shield-darkest {   
+              fill:#231f20; 
+            }
+            .grayscale.shield-shadow { 
+              fill:#a7a9ac; 
+            }
+
+            .text.invert{ 
+              fill:#fff;
+            }
           </style>
         </defs>
         <!-- TODO: SLIDE 73.1 -->
