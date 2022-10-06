@@ -53,6 +53,20 @@ class UMark extends LitElement {
         attribute: 'grayscale',
       },
       /* TODO: SLIDE 72 */
+      /**
+       * is mark inverted to white text
+       */
+      invert: {
+        type: Boolean,
+        attribute: 'invert',
+      },
+      /**
+       * campus location
+       */
+      location: {
+        type: String,
+        attribute: 'location',
+      },
     };
   }
 
