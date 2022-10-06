@@ -1,4 +1,5 @@
 /* TODO: SLIDE 31 */
+import './u-alerts.js';
 import './u-card.js';
 import './u-mark.js';
 /* TODO: SLIDE 54 */
