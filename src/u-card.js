@@ -32,11 +32,6 @@ class uCard extends LitElement {
         [hidden] {
           display: none!important;
         }
-        /* TODO: SLIDES 91 & 93 */
-        ::slotted(nav), ::slotted(a) {
-          color: blue!important;
-          background: yellow!important;
-        }
         :host,
         div[part=body]{
           display: flex;

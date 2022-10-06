@@ -33,6 +33,7 @@ class uNavbar extends LitElement {
         [hidden] {
             display: none!important;
         }
+        /* TODO: SLIDES 91 & 93 */
     `,
     ];
   }
