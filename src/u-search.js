@@ -242,7 +242,22 @@ class uSearch extends LitElement {
       : false;
   }
 
-  /* TODO: SLIDE 80 */
+  /* TODO: SLIDE 80 *//**
+  * handles search button click
+  * @param {event} e event 
+  */
+  onClick(e) {
+    if (this.toggles && this.toggled && this.input !== '') { 
+      this.fireSearch(); 
+    }
+    this.toggled = !this.toggled;
+    if (this.toggles && this.toggled) {
+      this.input.focus();
+    } else {
+      this.button.focus();
+    }
+  }
+
 
   /* TODO: SLIDE 81 */
 }
