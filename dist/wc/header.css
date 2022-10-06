@@ -47,6 +47,12 @@ u-search {
   color: #001e44;
   margin: 0;
   /* TODO: SLIDE 99 */
+  --font-family: 'Work Sans', sans-serif;
+  --font-size: 1rem;
+  --border: none;
+  --input-border: 1px solid #ddd;
+  --button-border: 1px solid transparent;
+  --input-background-color: white;
 }
 u-search[toggled] {
   color: #666;
