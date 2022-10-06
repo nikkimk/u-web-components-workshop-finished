@@ -10,6 +10,18 @@
   font-size: 12px;
 }
 /* TODO: SLIDE 95 */
+#explore-cards u-card, 
+#explore-cards u-card::part(body) {
+  align-items: center;
+  justify-content: center;
+}
+#explore-cards u-card::part(body) {
+  background: linear-gradient(
+    rgba(30, 64, 124, 0.7) 0%,
+    rgba(0, 156, 222, 0.7) 50%
+  );
+}
+
 #explore-cards u-card a[slot='link'] {
   padding: 5px 10px;
   margin: 30px;
