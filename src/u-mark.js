@@ -136,17 +136,17 @@ class UMark extends LitElement {
         </defs>
         <!-- TODO: SLIDE 73.1 -->
         <path 
-          class="shield-lightest${this.grayscale ? ' grayscale' : ''}" 
+          class="shield-lightest" 
           d="${uMarkPaths.light}"/>
         <path 
-          class="shield-darkest${this.grayscale ? ' grayscale' : ''}" 
+          class="shield-darkest" 
           d="${uMarkPaths.dark}"/>
         <path 
-          class="shield-shadow${this.grayscale ? ' grayscale' : ''}" 
+          class="shield-shadow" 
           d="${uMarkPaths.shadow}"/>
         <!-- TODO: SLIDE 73.2 -->
         <path 
-          class="text${this.invert ? ' invert' : ''}" 
+          class="text" 
           d="${this.svgData?.path}"/>
         </svg>
       `;
