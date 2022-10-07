@@ -107,6 +107,11 @@ class UFooter extends LitElement {
   render() {
     return html`
       <!-- TODO: SLIDE 111 -->
+      <u-mark 
+        ?invert="${this.invert}"
+        ?grayscale="${this.grayscale}">
+      </u-mark>
+      
       <ul>
         <!-- TODO: SLIDE 51 -->
         <li>
