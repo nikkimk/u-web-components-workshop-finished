@@ -75,3 +75,6 @@ section > h2:first-child:after {
   display: inline;
 }
 /* TODO: SLIDE 103 */
+threaded-discussion:not(:defined) {
+  display: none !important;
+}
